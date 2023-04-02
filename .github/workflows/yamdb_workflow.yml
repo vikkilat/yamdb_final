@@ -44,6 +44,7 @@ jobs:
         with:
           push: true
           tags: vikkilat/yamdb_final:v1
+          file: api_yamdb/Dockerfile
   
   deploy:
     runs-on: ubuntu-latest
