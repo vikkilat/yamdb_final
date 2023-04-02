@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: ../api_yamdb/
+    image: vikkilat/yamdb_final:v1
     restart: always
     volumes:
       - static_value:/app/static/
