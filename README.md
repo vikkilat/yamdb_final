@@ -103,8 +103,17 @@ sudo docker-compose exec web python manage.py loaddata fixtures.json
 sudo docker-compose exec web python manage.py createsuperuser
 ```
 
+Для проверки работоспособности приложения перейдите на страницу:
 
-## Проект будет доступен по вашему IP-адресу.
+```
+http:/<IP_ADDRESS>/admin/
+```
+
+Документация для YaMDb доступна по адресу:
+
+```
+http:/<IP_ADDRESS>/redoc/
+```
 
 Образ на DockerHub: https://hub.docker.com/r/vikkilat/yamdb_final
 
