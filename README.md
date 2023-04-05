@@ -115,6 +115,9 @@ http:/<IP_ADDRESS>/admin/
 http:/<IP_ADDRESS>/redoc/
 ```
 
+Проект доступен по адресу: http://84.252.130.233/
+
+
 Образ на DockerHub: https://hub.docker.com/r/vikkilat/yamdb_final
 
 ### Автор
