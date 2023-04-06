@@ -43,7 +43,7 @@ sudo apt install docker.io
 Установите docker-compose на сервер:
 
 ```
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/2.17.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
@@ -115,7 +115,10 @@ http:/<IP_ADDRESS>/admin/
 http:/<IP_ADDRESS>/redoc/
 ```
 
-Проект доступен по адресу: http://84.252.130.233/
+Развернутый проект:
+http://84.252.130.233/api/v1/
+http://84.252.130.233/admin/
+http://84.252.130.233/redoc/
 
 
 Образ на DockerHub: https://hub.docker.com/r/vikkilat/yamdb_final
