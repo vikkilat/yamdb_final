@@ -22,11 +22,3 @@ class CategoryGenreViewSet(mixins.ListModelMixin, mixins.CreateModelMixin,
     filter_backends = (SearchFilter,)
     search_fields = ('name',)
     lookup_field = 'slug'
-
-
-"""
-Столкнулся с проблемой, что сериализаторы не видят значение полей "fields" и
-"model" родительского класса, и считают что я создаю сериализатор без него.
-Классы User и ProfileEdit отрефакторить не получилось...
-Остальное общее вынес отдельно:)
-"""
